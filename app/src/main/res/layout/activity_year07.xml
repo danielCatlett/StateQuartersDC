@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_year01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.daniel_catlett.statequartersdc.year01">
+
+    <TextView
+        android:text="@string/txt07Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt99Title"
+        android:textSize="36sp" />
+
+    <RelativeLayout
+        android:layout_width="175dp"
+        android:layout_height="218dp"
+        android:layout_below="@+id/txt99Title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:text="@string/txtWash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPenn"
+            android:layout_above="@+id/pennD"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp" />
+
+        <CheckBox
+            android:text="@string/txtD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pennD"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/txtPenn"
+            android:layout_alignStart="@+id/txtPenn" />
+
+        <CheckBox
+            android:text="@string/txtP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox4"
+            android:layout_below="@+id/pennD"
+            android:layout_alignLeft="@+id/pennD"
+            android:layout_alignStart="@+id/pennD" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="175dp"
+        android:layout_height="218dp"
+        android:layout_below="@+id/txt99Title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/txtMon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDel"
+            android:layout_above="@+id/pennD"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp" />
+
+        <CheckBox
+            android:text="@string/txtD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pennD"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/txtDel"
+            android:layout_alignStart="@+id/txtDel" />
+
+        <CheckBox
+            android:text="@string/txtP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox2"
+            android:layout_below="@+id/pennD"
+            android:layout_alignLeft="@+id/pennD"
+            android:layout_alignStart="@+id/pennD" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="175dp"
+        android:layout_height="109dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_toLeftOf="@+id/relativeLayout2"
+        android:layout_toStartOf="@+id/relativeLayout2"
+        android:layout_marginTop="260dp">
+
+        <TextView
+            android:text="@string/txtId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNJ"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp" />
+
+        <CheckBox
+            android:text="@string/txtD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/njD"
+            android:layout_below="@+id/txtNJ"
+            android:layout_alignLeft="@+id/txtNJ"
+            android:layout_alignStart="@+id/txtNJ" />
+
+        <CheckBox
+            android:text="@string/txtP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox6"
+            android:layout_below="@+id/njD"
+            android:layout_alignLeft="@+id/njD"
+            android:layout_alignStart="@+id/njD" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="175dp"
+        android:layout_height="109dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="260dp">
+
+        <TextView
+            android:text="@string/txtWy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtGeo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp" />
+
+        <CheckBox
+            android:text="@string/txtD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/geoD"
+            android:layout_below="@+id/txtGeo"
+            android:layout_alignLeft="@+id/txtGeo"
+            android:layout_alignStart="@+id/txtGeo" />
+
+        <CheckBox
+            android:text="@string/txtP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox8"
+            android:layout_below="@+id/geoD"
+            android:layout_alignLeft="@+id/geoD"
+            android:layout_alignStart="@+id/geoD" />
+    </RelativeLayout>
+
+    <TextView
+        android:text="@string/txtUt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtConn"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="375dp"
+        android:textSize="24sp" />
+
+    <CheckBox
+        android:text="@string/txtD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtConn"
+        android:layout_alignLeft="@+id/txtConn"
+        android:layout_alignStart="@+id/txtConn"
+        android:id="@+id/connD" />
+
+    <CheckBox
+        android:text="@string/txtP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connD"
+        android:layout_alignLeft="@+id/connD"
+        android:layout_alignStart="@+id/connD"
+        android:id="@+id/checkBox10" />
+</RelativeLayout>
